@@ -227,8 +227,8 @@ header {
   background-size: cover; }
 
 .designFlex_row {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  // display: -webkit-box;
+  // display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
