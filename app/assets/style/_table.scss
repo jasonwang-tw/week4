@@ -1,0 +1,151 @@
+@media (max-width:768px){
+/*------------------------
+ Global
+ ------------------------*/
+ .titleName {
+    font-size: 32px; }
+  
+  .row_padding64 {
+    padding: 64px 48px; }
+  
+  /*------------------------
+   header
+   ------------------------*/
+  .subTitle {
+    font-size: 20px;
+    margin-bottom: 20px; }
+  
+  .bannerTitle {
+    font-size: 48px; }
+  
+  /*------------------------
+   service
+   ------------------------*/
+  .serviceList {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+  
+  .serviceListItem {
+    -ms-flex-preferred-size: 35%;
+    flex-basis: 35%;
+    -ms-flex-negative: 0;
+    flex-shrink: 0; }
+  
+  /*------------------------
+   classic
+   ------------------------*/
+  .classicFlex:nth-child(3) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse; }
+  
+  .classicName {
+    font-size: 28px;
+    -ms-flex-preferred-size: 700px;
+    flex-basis: 700px;
+    text-align: center; }
+  
+  /*------------------------
+   design
+   ------------------------*/
+  .design {
+    padding-bottom: 350px; }
+  
+  .moreBtn {
+    padding: 10px;
+    -webkit-transform: translate(-25%, -50%);
+    -ms-transform: translate(-25%, -50%);
+    transform: translate(-25%, -50%); }
+  
+  .designFlex_row_4_left {
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%; }
+  
+  .designFlex_row_4_center {
+    -ms-flex-preferred-size: 35%;
+    flex-basis: 35%; }
+  
+  .designFlex_row_4_right {
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 20%; }
+  
+  .moreText {
+    font-size: 30px;
+    line-height: 30px; }
+  
+  .arrow {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 20%;
+    margin: 3px 0 0 10px; }
+  
+  .designBuyFlex_col_1 {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    padding: 120px 0;
+    font-size: 32px; }
+  
+  /*------------------------
+   customer
+   ------------------------*/
+  .customerList {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  
+  .customerListCard {
+    -ms-flex-preferred-size: 47%;
+    flex-basis: 47%;
+    margin-bottom: 24px; }
+  
+  .customerListCard img {
+    width: 100%; }
+  
+  /*------------------------
+   contact
+   ------------------------*/
+  .contact {
+    padding: 64px 120px; }
+  
+  /*------------------------
+   footer
+   ------------------------*/
+  .footerNavItem {
+    padding-right: 15px; }
+  
+  .tel,
+  .mail {
+    font-size: 20px;
+    margin: 10px 0; }
+  
+  .telIcon,
+  .mailIcon {
+    -ms-flex-preferred-size: 10%;
+    flex-basis: 10%; }
+  
+  .socialBtn {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-transform: translate(0, -5px);
+    -ms-transform: translate(0, -5px);
+    transform: translate(0, -5px); }
+    .socialBtn li {
+      -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+      padding-left: 10px; }
+  
+  .copyright {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0); }
+  
+  .copyright:before {
+    display: none; }
+  
+  .copyItem {
+    padding-left: 15px; }
+}
