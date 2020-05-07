@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%- title %></title>
+    <link rel="stylesheet" href="assets/style/all.css">
+    <!-- <link rel="stylesheet" media="(max-width: 768px)" href="assets/style/table.css" />
+    <link rel="stylesheet" media="(max-width: 480px)" href="assets/style/mobile.css" /> -->
+    <link href="assets/style/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- loading -->
+    <div class="loader_wrap">
+        <div class="cssload-wrap">
+            <div class="cssload-container">
+            <span class="cssload-dots"></span>
+            <span class="cssload-dots"></span>
+            <span class="cssload-dots"></span>
+            <span class="cssload-dots"></span>
+            <span class="cssload-dots"></span>
+            <span class="cssload-dots"></span>
+            <span class="cssload-dots"></span>
+            <span class="cssload-dots"></span>
+            <span class="cssload-dots"></span>
+            <span class="cssload-dots"></span>
+        </div>
+        </div>
+        <p class="loaderText">loading...</p>
+    </div>
+    <!-- loading end-->
+    <!-- header star -->
+    <header>
+        <div class="burger">
+            <hr class="burLine_1">
+            <hr class="burLine_2">
+            <hr class="burLine_3">
+        </div>
+        <h1 class="weblogo">
+            <a href="index.html">
+            <img src="assets/images/logo-new.png" alt="">
+            </a>
+        </h1>
+        <nav class="headerNav">
+            <ul>
+                <li class="navItem"><a href="">系列鏡框</a></li>
+                <li class="navItem"><a href="">門市據點</a></li>
+                <li class="navItem"><a href="">部落格</a></li>
+                <li class="navItem"><a href="qa.html">常見問題</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header end -->
+
+    <%- contents %>
+    
+    <!-- footer star -->
+    <footer class="row_padding64">
+        <div class="max1200">
+            <div class="footerFlex">
+                <div class="footerFlex_col footerFlex_col_left">
+                    <nav class="">
+                        <ul class="footerNav">
+                            <li class="footerNavItem"><a href="">首頁</a></li>
+                            <li class="footerNavItem"><a href="">系列鏡框</a></li>
+                            <li class="footerNavItem"><a href="">門市據點</a></li>
+                            <li class="footerNavItem"><a href="">部落格</a></li>
+                            <li class="footerNavItem"><a href="">常見問題</a></li>
+                        </ul>
+                    </nav>
+                    <div class="tel">
+                        <div class="telIcon">
+                            <img src="assets/images/ic_phone_48px.svg" alt="">
+                        </div>
+
+                        <a href="tel:0800-000-000">0800-000-000</a>
+                    </div>
+                    <div class="mail">
+                        <div class="mailIcon">
+                            <img src="assets/images/ic_mail_outline_24px.svg" alt="">
+                        </div>
+                        <a href="mailto:glasses@business.com" class="">glasses@business.com</a>
+                    </div>
+                </div>
+                <div class="footerFlex_col footerFlex_col_right">
+                    <ul class="socialBtn">
+                        <li><a href=""><img src="assets/images/ic_social_fb.svg" alt="" srcset=""></a></li>
+                        <li><a href=""><img src="assets/images/ic_social_ig.svg" alt="" srcset=""></a></li>
+                        <li><a href=""><img src="assets/images/ic_social_line.svg" alt="" srcset=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footeHr">
+            <div class="footerFlex footerFlexCopy">
+                <div class="copyLogo">
+                    <img src="assets/images/logo-new.png" alt="">
+                </div>
+                <div class="copyright">Copyright © 2020 Glasses.All rights reserved.</div>
+                <ul class="copyNav">
+                    <li class="copyItem"><a href="">隱私權政策</a></li>
+                    <li class="copyItem"><a href="">服務條款</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+</body>
+<script src="assets/js/jquery-1.10.1.min.js"></script>
+<script src="assets/js/aos.js"></script>
+<script src="assets/js/all.js"></script>
+
+</html>

@@ -1,10 +1,10 @@
 
 // 命名 srat
 // 標題
-$('h2').addClass('max1200 titleName');
+// $('h2').addClass('max1200 titleName');
 
 // banner標題
-$('.headerText h2').removeClass('max1200 titleName');
+// $('.headerText h2').removeClass('max1200 titleName');
 
 // 服務項目
 $('.serviceList li').addClass('serviceListItem');
@@ -30,6 +30,11 @@ $('.burger').click(function(){
     $('.headerNav').toggleClass('headerNavOpen');
 });
 // 命名 end
+
+$('.qaList h3').click(function(){
+    $(this).toggleClass('down');
+    $(this).next('p').slideToggle(200);
+});
 
 // AOS.js
 AOS.init();
