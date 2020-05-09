@@ -654,8 +654,13 @@ footer {
   }
   .pageTitle:after{
     display: inline-block;
-    transform: translate(10px, 5px);
-    content: url(../images/help-circle-sharp.svg);
+    transform: translate(10px, 3px);
+    width: 60px;
+    height: 60px;
+    background: #aa0601;
+    content: ' ';
+    mask: url(../images/help-circle-sharp.svg) no-repeat 50% 50%;
+    mask-size: cover;
   }
 }
 .pageContent{
