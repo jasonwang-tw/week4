@@ -17,10 +17,10 @@ $('.customer li p').addClass('cardText');
 $('.customer li span').addClass('cardUpdateTime');
 
 // 經典鏡框Icon
-$('.classic .classicName').each(function(i){
-    n=i+1;
-    $(this).addClass('classicNameIcon_'+n);
-});
+// $('.classic .classicName').each(function(i){
+//     n=i+1;
+//     $(this).addClass('classicNameIcon_'+n);
+// });
 
 // 漢堡菜單
 $('.burger').click(function(){
